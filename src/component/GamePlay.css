@@ -1,0 +1,10 @@
+main{
+    width:1280px;
+    height:182px;
+    margin:37px auto;
+}
+.gmplay_main{
+    display:flex;
+    justify-content:space-between;
+}
+

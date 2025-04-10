@@ -1,0 +1,18 @@
+button{
+    width:12rem;
+    height:33px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:3px;
+    background-color: black;
+    color:white;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;transition:0.3s background ease-in;
+}
+button:hover{
+    background-color: rgb(140, 137, 137);
+    color:rgb(3, 3, 3);
+    transition:0.3s background ease-in;
+}

@@ -1,0 +1,42 @@
+.stGame_main {
+    width: 1180px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.stGame_text h1 {
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.stGame_text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+@media (max-width: 768px) {
+    .stGame_main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stGame_text h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .stGame_text {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+}
+
+

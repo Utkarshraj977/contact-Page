@@ -1,0 +1,30 @@
+.dice {
+   gap:8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.resetbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.divimg {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: red;
+}
+.diceimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
